@@ -15,15 +15,15 @@ ul {
 body {
   color: #434455;
   background: #fff;
-  font-family: 'Roboto', 'Raleway', 'Verdana', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.logo-link {
+.logo {
   color: #4d5ae5;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -31,21 +31,22 @@ body {
   text-transform: uppercase;
 }
 
-.logo-link__accent {
+.logo__accent {
   color: #2e2f42;
 }
 
-.footer__logo-link .logo-link__accent {
+.footer__logo .logo__accent {
   color: #f4f4fd;
 }
 
 .button {
-  border-radius: 4px;
   background: #4d5ae5;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.64px;
   cursor: pointer;
+  font-family: 'Roboto';
+  line-height: 1.5;
 }
 .button:hover,
 .button:focus {
@@ -54,12 +55,17 @@ body {
 
 .title {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
 }
 
 /* Header */
@@ -83,7 +89,6 @@ body {
 }
 .solutions__title {
   color: #fff;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -91,10 +96,6 @@ body {
 }
 
 /* Advantages */
-
-.advantages__title {
-  display: none;
-}
 
 /* Team */
 
