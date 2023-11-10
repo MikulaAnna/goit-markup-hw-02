@@ -8,8 +8,13 @@ address {
   font-style: normal;
 }
 
-ul {
-  list-style: none;
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
@@ -21,6 +26,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -35,17 +41,11 @@ body {
   color: #2e2f42;
 }
 
-.footer__logo .logo__accent {
-  color: #f4f4fd;
-}
-
 .button {
   background: #4d5ae5;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.04em;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 }
 .button:hover,
@@ -116,5 +116,9 @@ body {
 }
 
 .footer__text {
+  color: #f4f4fd;
+}
+
+.footer__logo .logo__accent {
   color: #f4f4fd;
 }
